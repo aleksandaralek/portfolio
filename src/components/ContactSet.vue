@@ -38,6 +38,12 @@ export default {
           link: `https://github.com/${process.env.VUE_APP_HERO_GITHUB}`
         },
         {
+          name: 'telegram',
+          text: process.env.VUE_APP_HERO_TELEGRAM_NAME,
+          img: 'telegram.png',
+          link: process.env.VUE_APP_HERO_TELEGRAM_LINK
+        },        
+        {
           name: 'whatsapp',
           text: process.env.VUE_APP_HERO_WHATSAPP_NAME,
           img: 'whatsapp.png',
