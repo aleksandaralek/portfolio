@@ -37,6 +37,18 @@ export default {
           img: 'github.png',
           link: `https://github.com/${process.env.VUE_APP_HERO_GITHUB}`
         },
+        {
+          name: 'whatsapp',
+          text: process.env.VUE_APP_HERO_WHATSAPP_NAME,
+          img: 'whatsapp.png',
+          link: process.env.VUE_APP_HERO_WHATSAPP_LINK
+        },
+        {
+          name: 'discord',
+          text: process.env.VUE_APP_HERO_DISCORD_NAME,
+          img: 'discord.png',
+          link: process.env.VUE_APP_HERO_DISCORD_LINK
+        },
       ]
     }
   }
